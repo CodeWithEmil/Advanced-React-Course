@@ -20,7 +20,7 @@ const UseStateArray = () => {
             <button onClick = {() => removeItem(id)}>remove</button>
           </div>
         )})}
-      <button className = "btn" onClick = {() => setPeople()}>clear items</button>
+      <button className = "btn" onClick = {() => setPeople([])}>clear items</button>
     </>
   );
 };
